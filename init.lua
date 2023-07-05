@@ -2,7 +2,7 @@ local minetest, DIR_DELIM, Settings = core, DIR_DELIM, Settings
 local log = minetest.log
 
 local server_info = minetest.get_server_info()
-print('server_info', dump(server_info))
+-- print('server_info', dump(server_info))
 
 local function getIndex(l, value)
   for k, v in pairs(l) do
